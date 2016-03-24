@@ -1,5 +1,4 @@
 /*font*/
-
 * {
   font-family: 'Muli', sans-serif;
 }
@@ -9,8 +8,6 @@ header {
   text-align: left;
   background-image: url("banner2.jpg");
   height: auto;
-  max-width:
-
 }
 
 .banner {
@@ -80,12 +77,6 @@ body {
 
 }
 
-.row_container {
-  display: flex;
-  padding: 2.5%, 0, 0, 0
-}
-
-
 h2 {
   margin: 2.5%;
 }
@@ -98,9 +89,13 @@ p {
 /* Responsive */
 
 .row_container {
-  flex-wrap: wrap;
+  display: flex;
+  padding: 2.5%, 0, 0, 0
 }
 
+.row_container {
+  flex-wrap: wrap;
+}
 
 /*480*/
 @media screen and (min-width: 480px){
@@ -109,20 +104,8 @@ p {
 .column_container {
     display: flex;
     flex-direction: column;
-    flex: 1;
     background-color: yellow;
-  }
-  .one {
-    flex: 100;
-  }
-  .two {
-    flex: 100;
-  }
-  .three {
-    background-color: pink;
     flex: 1;
-    display: none;
-
   }
 
 
