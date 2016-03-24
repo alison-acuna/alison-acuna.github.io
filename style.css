@@ -97,6 +97,18 @@ p {
   flex-wrap: wrap;
 }
 
+.row_container_work {
+  display: flex;
+  flex-direction: row;
+}
+.row_item_work_1 {
+  flex: 1;
+  background-color: red;
+}
+.row_item_work_2 {
+  flex: 3;
+  background-color: blue:
+}
 /*480*/
 @media screen and (min-width: 480px){
 
@@ -108,6 +120,13 @@ p {
     flex: 1;
   }
 
+.column_container_work {
+
+}
+
+.profile_item {
+  flex: 1;
+}
 
 /*660*/
 
@@ -158,7 +177,9 @@ p {
   text-align: center;
 }
 
-
+.portfolio-photo {
+  width: 30%;
+}
 
 /* Footer */
 footer {
