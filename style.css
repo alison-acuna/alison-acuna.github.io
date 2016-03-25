@@ -155,11 +155,9 @@ p {
   display: flex;
   flex-direction: column;
 }
-
 .header_left{
   flex: 1;
 }
-
 .header_right{
   flex: 1;
 }
