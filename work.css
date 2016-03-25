@@ -87,20 +87,21 @@ p {
 
 /* Grid */
 
-
-.row_item_work {
+.container {
   display: flex;
   flex: 1;
+  flex-direction: column;
 }
 
-
-.column_container_work {
+.row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.item{
   flex: 1;
   padding: 2.5%;
 }
-
 
 @media screen and (min-width: 660px){
 
