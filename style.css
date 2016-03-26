@@ -10,24 +10,25 @@ header {
   height: auto;
 }
 
+header h1 {
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+}
+
 .banner {
   position: relative;
 }
 
+
 .text-overlay {
-  color: #F5CE4C;
+  color: #ffcc33;
   position: absolute;;
-  top: 5%;
-  left: 5%;
   width: 100%;
  }
 
 /*nav bar */
-.nav{
-  position: relative;;
-  top: 1px;
-  left: 1px;
-}
+
 
 ul {
     list-style-type: none;
@@ -39,24 +40,34 @@ li {
   display: block;
   width: 80px;
   float: left;
-  padding-top: 22%;
 }
+
+header ul {
+  position: absolute;
+  bottom: 0;
+}
+
 
 /* unvisited link */
 a:link {
-  color: #F5CE4C;
+  color: #ffcc33;
 }
 /* visited link */
 a:visited {
-  color: #F5CE4C;
+  color: #ffcc33;
 }
 /* mouse over link */
 a:hover {
-  color: #F5CE4C;
+  color: #ffcc33;
 }
 /* selected link */
 a:active {
-  color: #F5CE4C;
+  color: #ffcc33;
+}
+
+.selected a {
+  color: red;
+  /*#ffd966;*/
 }
 
 /* Image  GET TO NON SQUISHY SIZE*/
@@ -98,6 +109,7 @@ p {
 .row_container {
   flex-wrap: wrap;
 }
+
 
 /*480*/
 @media screen and (min-width: 480px){
