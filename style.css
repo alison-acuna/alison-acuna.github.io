@@ -12,8 +12,8 @@ header {
 
 header h1 {
   position: absolute;
-  top: 2vh;
-  left: 2vw;
+  top: 0vh;
+  left: 1vw;
 }
 
 .banner {
@@ -66,8 +66,7 @@ a:active {
 }
 
 .selected a {
-  color: red;
-  /*#ffd966;*/
+  color: #ffeebc;
 }
 
 /* Image  GET TO NON SQUISHY SIZE*/
@@ -103,7 +102,6 @@ p {
 
 .row_container {
   display: flex;
-  padding: 2.5%, 0, 0, 0
 }
 
 .row_container {
@@ -155,35 +153,8 @@ h2 {
 }
 
 
-
-/*need a solution for the nav bar
-.header_flex{
-  display: flex;
-  flex-direction: column;
-}
-.header_left{
-  flex: 1;
-}
-.header_right{
-  flex: 1;
-}
-*/
-
 /*Add 3rd Column*/
 
-
-/* Work */
-
-/* Add portfolio layout to work section*/
-
-/*.work {
-  padding: 5%;
-  text-align: center;
-}
-
-.portfolio-photo {
-  width: 30%;
-}*/
 
 /* Footer */
 footer {
