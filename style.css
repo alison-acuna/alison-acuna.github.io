@@ -97,6 +97,12 @@ p {
   margin: 5%;
 }
 
+/*Contact*/
+
+.contact {
+  margin: 2.5%;
+}
+
 
 /* Responsive */
 
@@ -151,9 +157,6 @@ h2 {
 .column_container {
 
 }
-
-
-/*Add 3rd Column*/
 
 
 /* Footer */
