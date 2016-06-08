@@ -3,6 +3,10 @@
   font-family: 'Muli', sans-serif;
 }
 
+.content {
+  margin: 2.5%;
+}
+
 /*header*/
 header {
   text-align: left;
@@ -30,13 +34,13 @@ header h1 {
 /*nav bar */
 
 
-ul {
+.text-overlay {
     list-style-type: none;
     margin: 2.5%;
     padding: 0;
 }
 
-li {
+.nav {
   display: block;
   width: 80px;
   float: left;
@@ -47,6 +51,26 @@ header ul {
   bottom: 0;
 }
 
+/* Index*/
+
+.star {
+  list-style-type: none;
+}
+
+/* About Page */
+
+
+.star:before {
+  color: #ffcc33;
+}
+
+h3 {
+  color: #00898e;
+}
+
+h4 {
+  color: #00898e;
+}
 
 /* unvisited link */
 a:link {
@@ -91,6 +115,7 @@ h2 {
   margin-left: 2.5%;
   margin-right: 2.5%;
   display: block;
+  color: #00898e;
 }
 
 p {
@@ -125,10 +150,6 @@ p {
     flex: 1;
   }
 
-.column_container_work {
-
-}
-
 .profile_item {
   flex: 1;
 }
@@ -137,9 +158,6 @@ p {
 
 @media screen and (min-width: 660px){
 
-.column_container {
-
-}
 .banner {
   max-height: 17rem;
   overflow: hidden;
@@ -154,8 +172,10 @@ h2 {
 /*1024*/
 @media screen and (min-width: 1024px){
 
-.column_container {
 
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
